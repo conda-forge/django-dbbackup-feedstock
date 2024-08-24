@@ -1,5 +1,5 @@
 {% set name = "django-dbbackup" %}
-{% set version = "4.2.0" %}
+{% set version = "4.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 2fad069caf64b28ae2c1fe818bb3232e4e934d2b2f6bd47ed15582c7884c134e
+  sha256: 157a2ec10d482345cd75092e510ac40d6e2ee6084604a1d17abe178c2f06bc69
 
 build:
   noarch: python
