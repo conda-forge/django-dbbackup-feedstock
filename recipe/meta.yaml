@@ -38,7 +38,7 @@ about:
   home: https://github.com/jazzband/django-dbbackup
   summary: Management commands to help backup and restore a project database and media.
   license: BSD-3-Clause
-  license_file: LICENSE.txt
+  license_file: LICENSE.md
 
 extra:
   recipe-maintainers:
