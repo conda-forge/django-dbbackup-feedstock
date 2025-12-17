@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: django-dbbackup
-  version: "5.0.1"
+  version: "5.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 52e1ed0c8082eb29b2e96231db0101a47a34442176542c27659992918ae9ef2a
+  sha256: 66c236bbfa0c9bda33a61d30be8c5961d70fa73fed2fe7f829559ac216354130
 
 build:
   number: 0
