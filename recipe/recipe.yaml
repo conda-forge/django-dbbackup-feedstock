@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: django-dbbackup
-  version: "5.2.0"
+  version: 5.3.0
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 72b11dd31758abcf8f2d405fd2efbc49c9624bc17196f8c68542d3dc8d8d53c3
+  sha256: 2c880dba7650539e8a724174fedb5213062c4fcda3aa09e1c5f3f573192106cb
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - hatchling
   run:
     - python >=${{ python_min }},<4.0
-    - django >=4.2
+    - django >=5.0
 tests:
   - python:
       imports:
